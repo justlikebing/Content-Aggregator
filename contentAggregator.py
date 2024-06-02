@@ -10,7 +10,7 @@ class ContentA:
         print("data")
 
 
-
+
 class Bbc(ContentA):
     def __init__(self,k,docu):
         self.url="https://www.bbc.co.uk/search?q="+ k.replace(" ",'+')  +"&page="
