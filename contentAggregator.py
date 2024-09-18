@@ -37,7 +37,6 @@ class Bbc(ContentA):
 
 
 
-
 class Wiki(ContentA):
     url=str()
     stp=str()
