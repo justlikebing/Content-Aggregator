@@ -3,7 +3,6 @@ import requests
 from docx import Document
 
 
-
 class ContentA:
     def data():
         print("data")
