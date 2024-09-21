@@ -1,8 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 from docx import Document
-
-
+
 class ContentA:
     def data():
         print("data")
