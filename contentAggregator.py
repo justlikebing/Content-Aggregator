@@ -1,11 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
 from docx import Document
-
+
+
 class ContentA:
     def data():
         print("data")
-
 
 class Bbc(ContentA):
     def __init__(self,k,docu):
@@ -113,3 +113,4 @@ class Wiki(ContentA):
                         self.stp=self.stp + str(j)
                 self.docu.add_paragraph(self.stp)
                 self.stp=''
+
