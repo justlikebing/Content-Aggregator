@@ -112,5 +112,3 @@ class Wiki(ContentA):
                         self.stp=self.stp + str(j)
                 self.docu.add_paragraph(self.stp)
                 self.stp=''
-
-
