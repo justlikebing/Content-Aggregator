@@ -35,7 +35,6 @@ class Bbc(ContentA):
                 self.docu.add_paragraph(last)
 
 
-
 class Wiki(ContentA):
     url=str()
     stp=str()
@@ -113,4 +112,5 @@ class Wiki(ContentA):
                         self.stp=self.stp + str(j)
                 self.docu.add_paragraph(self.stp)
                 self.stp=''
+
 
